@@ -1,0 +1,88 @@
+name: infinicode
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  toast: ^0.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - audio/
+  fonts:
+    - family: ApexMk2
+      fonts:
+        - asset: fonts\ApexMk2-BoldExtended.otf
+        - asset: fonts\ApexMk2-Regular.otf
+        - asset: fonts\ApexMk2-LightCondensed.otf
+
+    - family: Agave
+      fonts:
+        - asset: fonts\Agave-Bold.otf
+        - asset: fonts\Agave-Brush.otf
+        - asset: fonts\Agave-Regular.otf
+
+    - family: Musk
+      fonts:
+        - asset: fonts\Musk-Regular.otf
+        - asset: fonts\Musk-Medium.otf
+        - asset: fonts\Musk-Bold.otf
+
+    - family: Basicaline
+      fonts:
+        - asset: fonts\Basicaline-NonCommercial.otf
+
+    - family: 'EarthOrbiter'
+      fonts:
+        - asset: fonts\earthorbiter.ttf
+        - asset: fonts\earthorbiterxtraboldital.ttf
+
+    - family: 'ColtanG'
+      fonts:
+        - asset: fonts\Coltan-Gea-Bold-demo-FFP.ttf
+        - asset: fonts\Coltan-Gea-BoldItalic-demo-FFP.ttf
+        - asset: fonts\Coltan-Gea-Light-demo-FFP.ttf
+        - asset: fonts\Coltan-Gea-LightItalic-demo-FFP.ttf
+
+    - family: 'Anko'
+      fonts:
+        - asset: fonts\AnkoPersonalUse.otf
+
+    - family: 'Baskervville'
+      fonts:
+        - asset: fonts\Baskervville-Regular.ttf
+
+    - family: 'Clab'
+      fonts:
+        - asset: fonts\Clab Personal Use-Regular.otf
+      
+    - family: 'New Standard'
+      fonts:
+        - asset: fonts\NewStandard-Regular.otf
+
+    - family: 'Zeit'
+      fonts:
+        - asset: fonts\Zeit-Light.otf
